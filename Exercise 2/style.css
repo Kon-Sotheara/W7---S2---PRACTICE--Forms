@@ -1,0 +1,127 @@
+body {
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.main {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: aliceblue;
+    border: 20px solid rgb(192, 208, 230);
+    border-radius: 5px;
+    grid-template-rows: 50px 1fr 80px;
+    gap: 30px;  
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    background-color: rgb(227, 237, 251);
+    padding: 40px;
+  
+}
+.body {
+    padding: 40px;
+}
+.main_body {
+    display: flex;
+    flex-direction: column;
+   
+}
+.first_row, .third_row,.gerder,.option{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.file {
+    display: flex;
+    flex-direction: row;
+    gap: 4.2rem;
+}
+#file {
+    width: 300px;
+}
+.income {
+    display: flex;
+    flex-direction: row;
+}
+.range {
+    width: 260px;
+}
+#value {
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: rgb(121, 167, 156);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+.choice {
+    display: flex;
+    flex-direction: row;
+    gap: 11rem;
+}
+.gerder input {
+    border-radius: 50%;
+}
+.text_box {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.text_email_box {
+    width: 623px;
+    height: 30px;
+    border-radius: 5px;
+}
+.text_box:hover,.text_email_box:hover,textarea:hover {
+    border: 2px solid rgb(103, 103, 182);
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.color_label {
+    color: rgb(46, 145, 134);
+    font-weight: bold;
+}
+textarea {
+    resize: none;
+    border-radius: 5px;
+}
+textarea:hover {
+    border: 1px solid rgb(103, 103, 182);
+}
+textarea:focus {
+    outline: none;
+    border: 1px solid rgb(13, 102, 44);
+}
+.text_box:focus,.text_email_box:focus {
+    outline: none;
+    border: 2px solid rgb(13, 102, 44);
+}
+#button {
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: rgb(87, 127, 188);
+    font-weight: bold;
+    color: white;
+    border-style: none; 
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(227, 237, 251);
+    padding: 40px;
+}
+.checkbox:checked {
+    accent-color: green;
+}

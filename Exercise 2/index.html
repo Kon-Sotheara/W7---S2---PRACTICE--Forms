@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Create Account</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Create Account</h1>
+        </div>
+        <div class="body">
+            <div class="first_row">
+                <div class="name">
+                    <label class="color_label">First name *</label>
+                    <input class="text_box" type="text" placeholder="enter your first name">
+                </div>
+                <div class="name">
+                    <label class="color_label">Last name</label>
+                    <input class="text_box" type="text" placeholder="enter your last name">
+                </div>
+            </div>
+            <div class="email_row">
+                <div class="name">
+                    <label class="color_label">Email</label>
+                    <input class="text_email_box" type="text" placeholder="enter your email">
+                </div>
+            </div>
+            <div class="third_row">
+                <div class="name">
+                    <label class="color_label">Password *</label>
+                    <input class="text_box" type="text" placeholder="enter your password">
+                </div>
+                <div class="name">
+                    <label class="color_label">Confrim Password *</label>
+                    <input class="text_box" type="text" placeholder="enter your password again">
+                </div>
+            </div>
+            <div class="choice">
+                <div class="name">
+                    <label class="color_label">Gerder:</label>
+                    <div class="gerder">
+                        <div class="gender1">
+                            <input type="radio" class="checkbox">
+                            <label>Male</label>
+                        </div>
+                        <div class="gender1">
+                            <input type="radio" class="checkbox">
+                            <label>Famale</label>
+                        </div> 
+                    </div>
+                </div> 
+                <div class="name">
+                    <label class="color_label">Hobbies</label>
+                    <div class="gerder">
+                        <div class="gender1">
+                            <input type="checkbox" class="checkbox">
+                            <label>Music</label>
+                        </div>
+                        <div class="gender1">
+                            <input type="checkbox" class="checkbox">
+                            <label>Sport</label>
+                        </div>
+                        <div class="gender1">
+                            <input type="checkbox" class="checkbox">
+                            <label>Travel</label>
+                        </div>
+                        <div class="gender1">
+                            <input type="checkbox" class="checkbox">
+                            <label>Movies</label>
+                        </div>           
+                    </div>
+                </div>
+            </div>
+            <div class="option">
+                <div class="name">
+                    <label class="color_label">Source of Income</label>
+                    <select class="text_box">
+                        <option>Employed</option>
+                        <option>Unemployed</option>
+                        <option>Student</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="name">
+                    <label class="color_label">Income</label>
+                    <div class="income">
+                        <input type="range" class="range">
+                        <button id="value">20K</button>
+                    </div> 
+                </div>
+            </div>
+            <div class="file">
+                <div class="name">
+                    <label class="color_label">Upload Profile Picture</label>
+                    <input type="file" >
+                </div>
+                <div class="name">
+                    <label class="color_label">Age:</label>
+                    <input type="number" value="18" id="file" class="text_box">
+                </div>
+            </div>
+            <div class="name">
+                <label class="color_label">Bio:</label>
+                <textarea rows="5" placeholder="write something about your self"></textarea>
+            </div>
+        </div>
+        <div class="button">
+            <input type="button" value="Create" id="button">
+        </div>
+    </div>
+    
+</body>
+</html>

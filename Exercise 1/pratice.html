@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body {
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main {
+        background-color: rgb(168, 181, 231);
+        padding: 40px;
+        border-radius: 20px;
+    }
+    .name {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 300px;
+        margin: 20px;
+    }
+    .checkbox {
+        padding-left: 25px;
+    }
+    .text_name {
+        width: 300px;
+        height: 30px;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+    .text_name:hover {
+        border: 2px solid rgb(31, 31, 244);
+        box-shadow: none;
+    }
+    .text_name:focus{
+        outline: none;
+        border: 2px solid rgb(73, 117, 163);     
+    }
+    .checkbox:checked {
+        accent-color: rgb(83, 0, 128);
+    }
+    .login {
+       width: 300px;
+       height: 35px;
+       margin: 20px;
+       border-radius: 10px;
+       border-style: none;
+       background-color: rgb(71, 52, 215);
+       color: white;
+       font-weight: bold;
+    }
+    .login:hover {
+        background-color: blue;
+    }  
+</style>
+<body>
+    <form>
+        <div class="main">
+            <h1>Login To Your Account</h1>
+            <div class="name">
+                <label>Username</label>
+                <input class="text_name" type="text" placeholder="Enter your name">
+            </div>
+            <div class="name">
+                <label>Email</label>
+                <input class="text_name" type="text" placeholder="Enter your email">
+            </div>
+            <div class="name">
+                <label>Password</label>
+                <input class="text_name" type="text" placeholder="Enter your password">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" class="checkbox" >
+                <label>Remember me!</label>
+            </div>
+                <input type="button" value="Login" class="login">
+    
+        </div>
+        
+    </form>
+    
+</body>
+</html>
